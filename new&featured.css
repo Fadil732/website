@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+.featured-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+ }
+ .navbar {
+   background-color: #f1f1f1;
+ 
+   display: flex;
+ 
+   align-items: center;
+ 
+   padding: 1px;
+ 
+ }
+ .logo {
+
+   flex: 1;
+ 
+   padding-left: 20px;
+ 
+ }
+ .logo img {
+ 
+   height: 60px;
+   width:auto;
+
+ }
+ 
+ .featured-header h1 {
+    font-size: 30px;
+    padding-right: 650px;
+    color: #333;
+    font-weight: bold;
+    font-family:'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap';
+ }
+ .featured-image {
+    width: 100%;
+    max-width: 100rem;
+    overflow: hidden;
+    margin-top: 0px;
+ }
+ .featured-image img{
+    width: 100%;
+    height: 300px;
+    object-position: top;
+ }
+ .featured-image2 {
+    width: 100%;
+    max-width: 100rem;
+    overflow: hidden;
+ }
+ .featured-image2 img{
+   margin-top: 5px;
+    width: 100%;
+    height: 347px;
+ }
+ .trending {
+    justify-content: center;
+    align-items: center;
+    width: 30%; 
+    margin-top: 10px; 
+    font-size: 25px;
+    padding-left: 710px;
+ }
+ .wrapper{
+   min-height: 44vh;
+   display: grid;
+   place-items: center;
+   padding-inline: 1.25rem;
+   color: #fff;
+}
+
+.slider{
+   display: flex;
+   gap: .5rem;
+   width: min(100%, 700px);
+}
+
+.card{
+   flex: 1;
+   height: 280px;
+   overflow: hidden;
+   border-radius: 0.625rem;
+   transition: 1s ease-in-out;
+   cursor: pointer;
+   position: relative;
+}
+
+.card img{
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.card .title{
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   padding: 20px;
+   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0) );
+   visibility: hidden;
+   opacity: 0;
+   transition: 1s ease-in-out;
+}
+
+.card .title h2{
+   font-size: 1rem;
+   white-space: nowrap;
+}
+
+.card .title p{
+   font-size: .9rem;
+}
+
+.active{
+   flex-grow: 5;
+}
+
+.active .title{
+   visibility: visible;
+   opacity: 1;
+}
+.black-footer {
+
+   background-color: #000;
+
+   color: #fff;
+
+   padding: 20px;
+
+   display: flex;
+
+   justify-content: space-between;
+
+}
+
+
+/* Style for the footer column on the left */
+
+.footer-column {
+
+   display: flex;
+
+   flex-direction: column;
+
+}
+
+
+.footer-column p {
+
+   margin: 5px 0;
+
+}
+
+
+/* Style for the social media icons on the right */
+
+.social-icons {
+
+   display: flex;
+
+}
+
+
+.social-icons a {
+
+   margin: 0 10px;
+
+}
+
+
+.social-icons img {
+
+   width: 30px; /* Adjust the icon size as needed */
+   height: 30px;
+
+}

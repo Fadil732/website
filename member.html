@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="member.css">
+
+    <script src="member.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="title">
+
+        Nike Membership
+
+    </div>
+
+    <div class="form">
+
+        <form action="connect.php" method="post" onsubmit="return validateEmail()">
+
+            <div class="inputfield">
+
+                <label>Email</label>
+
+                <input type="text" class="input" id="Email" name="Email"/>
+
+            </div>  
+
+            <div class="inputfield">
+
+                <label>FirstName</label>
+
+                <input type="text" class="input" id="FirstName" name="FirstName">
+
+            </div>  
+
+            <div class="inputfield">
+
+                <label>LastName</label>
+
+                <input type="text" class="input" id="LastName" name="LastName">
+
+            </div>  
+
+            <div class="inputfield">
+
+                <label>Password</label>
+
+                <input type="password" class="input" id="Password" name="Password">
+
+            </div>  
+
+            <div class="inputfield">
+
+                <label>Date Of Birth</label>
+
+                <input type="date" class="input" id="DateOfBirth" name="DateOfBirth">
+
+            </div>
+
+            <div class="inputfield">
+
+                <label>Gender</label>
+
+                <div class="custom_select">
+
+                    <select name="Gender">
+
+                        <option value="">Select</option>
+
+                        <option value="male">Male</option>
+
+                        <option value="female">Female</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="inputfield">
+
+                <label>Country</label>
+
+                <div class="custom_select">
+
+                    <select name="Country">
+
+                        <option value="">Select</option>
+
+                        <option value="Mauritius">Mauritius</option>
+
+                        <option value="United States">United States</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="inputfield terms">
+
+                <label class="check">
+
+                    <input type="checkbox">
+
+                    <span class="checkmark"></span>
+
+                </label>
+
+                <p>Agreed to terms and conditions</p>
+
+            </div>
+
+            <div class="inputfield">
+
+                <input type="submit" value="Register" class="btn">
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>  
+
+</body>
+
+</html>

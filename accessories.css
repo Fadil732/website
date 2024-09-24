@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+   background-color: #f1f1f1;
+ 
+   display: flex;
+ 
+   align-items: center;
+ 
+   padding: 1px;
+ 
+ }
+ .logo {
+ 
+   flex: 1;
+ 
+   padding-left: 20px;
+ 
+ }
+ .logo img {
+ 
+   height: 60px;
+   width:auto;
+ 
+ }
+.access-header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+ }
+ 
+ .access-header h1 {
+   padding-right: 720px;
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+    font-family:'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap';
+ }
+ .access-image {
+    width: 100%;
+    max-width: 100rem;
+    overflow: hidden;
+    margin-top: 0px;
+ }
+ .access-image img{
+    width: 100%;
+    height: -7rem;
+    object-position: top;
+ }
+ .image-grid {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Gap between images */
+    justify-content: center; 
+    padding: 20px; 
+ }
+ 
+ 
+ .image-item1 img {
+    margin-top: 20px;
+    padding-left: 250px;
+    padding-right: 1rem;
+    width: 21rem; 
+    height: 340px; 
+    display: block; 
+ }
+ .image-item2 img {
+    padding-right: 42.5rem;
+    width: 50%; 
+    height: auto; 
+    display: block; 
+ }
+ .image-item3 img{
+    padding-right: 330px;
+
+    width: 100%;
+    height: 340px;
+    display: block;
+ }
+ .image-item1 {
+    position: relative;
+    text-align:left;
+ }
+ 
+ .image-item1 p {
+    position: absolute;
+    bottom: 10;
+    padding-left: 245px;
+    left: 0;
+    margin-top: 10px; 
+ }
+ 
+ 
+ .image-item1 p b {
+
+    font-weight: bold;
+ }
+ 
+ .image-item1 p span {
+    font-weight: normal;
+ }
+ .image-item2 {
+    position: relative;
+    text-align:left;
+ }
+ 
+ .image-item2 p {
+    position: absolute;
+    bottom: 10;
+    padding-left: 3px;
+    left:0;
+    margin-top: 10px; 
+ }
+ 
+ 
+ .image-item2 p b {
+
+    font-weight: bold;
+ }
+ .image-item3 {
+    position: relative;
+    text-align:left;
+ }
+ 
+ .image-item3 p {
+    position: absolute;
+    bottom: 10;
+    padding-left: 3px;
+    left: 0;
+    margin-top: 10px; 
+ }
+ 
+ 
+ .image-item3 p b {
+
+    font-weight: bold;
+ }
+ 
+ .image-item3 p span {
+    font-weight: normal;
+ }
+
+ .black-footer {
+    margin-top: 60px;
+height: 80px;
+    background-color: #000;
+
+    color: #fff;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+
+/* Style for the footer column on the left */
+
+.footer-column {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.footer-column p {
+
+    margin: 5px 0;
+
+}
+
+
+/* Style for the social media icons on the right */
+
+.social-icons {
+
+    display: flex;
+
+}
+
+
+.social-icons a {
+
+    margin: 0 10px;
+
+}
+
+
+.social-icons img {
+
+    width: 33px; /* Adjust the icon size as needed */
+
+}
